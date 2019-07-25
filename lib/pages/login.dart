@@ -7,7 +7,7 @@ class LoginPage extends StatelessWidget {
     // TODO: implement build
     return Scaffold (
       appBar: AppBar(
-        title: Text('Login'),
+        title: Text('Inicio'),
       ),
       body: Stack(
         children: <Widget>[
@@ -36,11 +36,11 @@ class LoginPage extends StatelessWidget {
         tag: 'intrare',
         child: Padding(
             padding: EdgeInsets.fromLTRB(
-                0.0, 70.0, 0.0, 0.0),
+                0.0, 10.0, 0.0, 0.0),
                 child: CircleAvatar(
                  backgroundColor: Colors.transparent,
-                 radius: 48.0,
-                 child: Image.asset('assets/logos/logo_hor.png')
+                 radius: 150.0,
+                 child: Image.asset('images/logo1.png'),
                 )
         )
     );
