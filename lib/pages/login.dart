@@ -125,8 +125,3 @@ class LoginPage extends StatelessWidget {
 
   }
 }
-//Testing bot
-/*
-*
-*|| Testing bot
-* */
